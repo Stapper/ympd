@@ -50,6 +50,8 @@ static const char* get_mime(char* filename)
         return "image/svg+xml";
     if(!strcmp(extension, ".html"))
         return "text/html";
+    if(!strcmp(extension, ".lp"))
+        return "text/html";
     return "text/plain";
 }
 
