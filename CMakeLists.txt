@@ -36,7 +36,6 @@ file(GLOB RESOURCES
     htdocs/css/*.min.css
     htdocs/fonts/*
     htdocs/index.html
-    htdocs/script/*
 )
 
 set(SOURCES

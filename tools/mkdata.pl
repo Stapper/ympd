@@ -16,7 +16,6 @@ use File::Basename;
   eot => 'application/octet-stream',
   svg => 'image/svg+xml',
   html => 'text/html',
-  lp => 'text/html'
 );
 
 foreach my $i (0 .. $#ARGV) {
