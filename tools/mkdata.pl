@@ -15,7 +15,7 @@ use File::Basename;
   ttf => 'application/x-font-ttf',
   eot => 'application/octet-stream',
   svg => 'image/svg+xml',
-  html => 'text/html'
+  html => 'text/html',
 );
 
 foreach my $i (0 .. $#ARGV) {
